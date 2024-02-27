@@ -1,0 +1,26 @@
+{
+  "name": "weather-api",
+  "version": "1.0.0",
+  "description": "Typescript Node.js API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/src/index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api",
+    "weather"
+  ],
+  "author": "Gustavo Stolze",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.4",
+    "@types/node": "^20.11.20",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.3"
+  }
+}
